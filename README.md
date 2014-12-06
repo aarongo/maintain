@@ -1,2 +1,4 @@
 maintain
 ========
+docker-registry
+--------
