@@ -1,0 +1,9 @@
+
+note: local installation you must have all the files solr
+	solr-4.8.1.tgz out for storing files and unzip the file based on the identity Dockerfile
+1. Start
+docker run -p 1028: 22 -p 8080: 8080 -it -v / solrdeploy: / solrdeploy -v / dockersolr: / solrhome aarongo / centos-solr-supervisor
+
+2. Stop solr container
+3. Change deploy directory web.xml change home directory and add word
+4. Start tomcat Ok
