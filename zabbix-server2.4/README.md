@@ -5,10 +5,6 @@ NOTE:Á¬½ÓmysqlÊ±Ö´ÐÐsqlÎÄ¼þ Ë³ÐòÎª schema images data
 Error£ºzabbix_server.log Ã»ÓÐ±¨ÈÎºÎ´íÎó µ«ÊÇÇ°Ì¨±¨zabbix_server not running
 ½â¾ö£º¸ü¸Ä°²×°Ê±×îºóÉú³ÉµÄzabbix.conf.php
 =======
-NOTE:è¿žæŽ¥mysqlæ—¶æ‰§è¡Œsqlæ–‡ä»¶ é¡ºåºä¸º schema images data
-Errorï¼šzabbix_server.log æ²¡æœ‰æŠ¥ä»»ä½•é”™è¯¯ ä½†æ˜¯å‰å°æŠ¥zabbix_server not running
-è§£å†³ï¼šæ›´æ”¹å®‰è£…æ—¶æœ€åŽç”Ÿæˆçš„zabbix.conf.php
->>>>>>> f064216c19704b9850cfce4062696b5ca4df3bce
 ###zabbix.conf.php
 		<?php
 		// Zabbix GUI configuration file
