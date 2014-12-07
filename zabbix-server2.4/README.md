@@ -1,8 +1,8 @@
 zabbix-server
 ===================
-NOTE:Á¬½ÓmysqlÊ±Ö´ĞĞsqlÎÄ¼ş Ë³ĞòÎª schema images data
-Error£ºzabbix_server.log Ã»ÓĞ±¨ÈÎºÎ´íÎó µ«ÊÇÇ°Ì¨±¨zabbix_server not running
-½â¾ö£º¸ü¸Ä°²×°Ê±×îºóÉú³ÉµÄzabbix.conf.php
+NOTE:è¿æ¥mysqlæ—¶æ‰§è¡Œsqlæ–‡ä»¶ é¡ºåºä¸º schema images data
+Errorï¼šzabbix_server.log æ²¡æœ‰æŠ¥ä»»ä½•é”™è¯¯ ä½†æ˜¯å‰å°æŠ¥zabbix_server not running
+è§£å†³ï¼šæ›´æ”¹å®‰è£…æ—¶æœ€åç”Ÿæˆçš„zabbix.conf.php
 ###zabbix.conf.php
 		<?php
 		// Zabbix GUI configuration file
@@ -48,4 +48,4 @@ Error£ºzabbix_server.log Ã»ÓĞ±¨ÈÎºÎ´íÎó µ«ÊÇÇ°Ì¨±¨zabbix_server not running
 		[program:mysqld]
 		command=/etc/init.d/mysqld start
 ###Start zabbix_server
-		docker run -p 1050:22 -p 8089:80 -it --name zabbix_server  -v /zabbixdata:/var/lib/mysql aarongo/centos-zabbix-supervisor
+		docker run -p 1050:22 -p 8089:80 -p 3307:3306-it --name zabbix_server  -v /zabbixdata:/var/lib/mysql aarongo/centos-zabbix-supervisor
