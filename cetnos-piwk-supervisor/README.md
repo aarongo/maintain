@@ -1,6 +1,5 @@
 centos piwik 
 ================
-
 ###supervisord.conf
     [supervisord]
     nodaemon=true
